@@ -14,7 +14,6 @@
         android:textColor="#368DEB"
         android:gravity="center"
         android:id="@+id/textView1" />
-
     <Button
         android:text="Sign In"
         android:layout_width="match_parent"
