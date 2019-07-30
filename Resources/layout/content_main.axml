@@ -7,13 +7,18 @@
     android:layout_height="wrap_content"
     tools:gridSpec="1|8|#0093eeff|K:#ee8700ff:16,l:72,l:16,r|S:#83ee00ff:16,0,l:16,56,l:16,0,r">
     <TextView
-        android:text="Enter An Account"
+        android:text="Enter your UserName:"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="#368DEB"
         android:gravity="center"
         android:id="@+id/textView1" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nameText"
+        android:text="" />
     <Button
         android:text="Sign In"
         android:layout_width="match_parent"
@@ -26,10 +31,15 @@
         android:layout_height="wrap_content"
         android:id="@+id/textView2"
         android:gravity="center"
-        android:textColor="#000"
-        android:text="Or"/>
+        android:textColor="#368DEB"
+        android:text="Enter your PassWords:"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/passwordText"
+        android:text="" />
     <Button
-        android:text="Sign up With Email"
+        android:text="View All"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/ViewAllButton" />
