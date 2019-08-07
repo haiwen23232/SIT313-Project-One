@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_marginHorizontal="20dp"
+              android:layout_marginVertical="20dp"
+              android:orientation="vertical">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="25dp"
+    android:orientation="horizontal">
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:gravity="center"
+      android:text="Menu"
+      android:textSize="28dp" />
+
+    <Button
+      android:id="@+id/place_order_btn"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_weight="1.5"
+      android:text="Place order"
+      android:textAllCaps="false"
+      android:textSize="18dp" />
+  </LinearLayout>
+
+
+  <android.support.v7.widget.RecyclerView
+    android:id="@+id/recyclerView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:scrollbars="vertical" />
+
+</LinearLayout>
